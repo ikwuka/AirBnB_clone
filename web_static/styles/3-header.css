@@ -1,0 +1,11 @@
+header {
+  position: fixed;
+  background: #FFFFFF;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+header .airbnb_logo {
+  padding-left: 20px;
+}
