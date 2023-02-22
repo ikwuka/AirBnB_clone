@@ -1,11 +1,16 @@
 header {
   position: fixed;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   height: 70px;
   width: 100%;
   border-bottom: 1px solid #CCCCCC;
+  display: center;
+  align-items: center;
 }
 
-header .airbnb_logo {
+header nav .airbnb_logo {
+  width: 142px;
+  height: 60px;
+  background: url(../images/logo.png) no-repeat center;
   padding-left: 20px;
 }
