@@ -4,13 +4,11 @@ section.filters {
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    text-align: right;
 }
 
 section.filters button {
+    margin: 11px 0;
+    margin-right: 30px;
     font-size: 18px;
     color: white;
     background-color: #FF5A5F;
@@ -18,7 +16,6 @@ section.filters button {
     border: 0px;
     border-radius: 4px;
     width: 20%;
-    margin-right: 30px;
     opacity: 100%;
 }
 
@@ -26,17 +23,27 @@ section.filters button:hover {
     opacity: 90%;
 }
 
-.locations .amenities {
+.locations, .amenities {
     height: 100%;
     width: 25%;
+    margin-left: 30px;
+    float: left;
+    text-align: left;
+}
+
+.locations {
     border-right: 1px solid #DDDDDD;
 }
 
 h3 {
     font-weight: 600;
+    margin: 17px 0 0 0;
+    padding: 0;
 }
 
 h4 {
     font-weight: 400;
     font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
